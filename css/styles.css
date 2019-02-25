@@ -1,0 +1,34 @@
+body {
+  background: #efefef;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+#btn {
+  width: 400px;
+  height: 400px;
+  background: #ef454a;
+  border-radius: 50%;
+  margin:0 auto;
+  text-align: center;
+  line-height: 400px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 30px 0 #d1483e;
+  user-select: none;
+}
+
+
+#btn:hover {
+  opacity: 0.9;
+}
+
+#btn.pressed {
+  box-shadow: 0 5px 0 #d1483e;
+  margin-top: 35px;
+}
